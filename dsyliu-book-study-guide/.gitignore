@@ -1,0 +1,22 @@
+# Build artifact — rebuild with:
+#   python -m zipfile -c dsyliu-book-study-guide.skill dsyliu-book-study-guide/
+*.skill
+
+# Generated study guides are derived from copyrighted sources — keep them local
+*_Study_Guide.md
+
+# Extracted source text
+fulltext.txt
+*.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,15 @@
+# Build artifacts — rebuild with:
+#   python -m zipfile -c <skill>/<skill>.skill <skill>/
+*.skill
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
